@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Profile Section */
+.profile {
+    margin-left: 14rem;
+    margin-top: 6rem;
+    display: block;
+    padding: 0 20px;
+}
+
+.user_profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.user_profile h1 {
+    background-color: brown;
+    color: white;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.like_name h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.like_name p {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Video Section */
+.video_uploaded {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video_uploaded .video_play {
+    background-color: black;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.video_uploaded p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Date Posted Section */
+.date_posted {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.date_posted h1 {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+
+.date_posted p {
+    font-size: 14px;
+    color: #777;
+}
+@media screen and (max-width:768px) {
+    .profile{
+        margin-top:3rem;
+        margin-left:0;
+    }
+}
